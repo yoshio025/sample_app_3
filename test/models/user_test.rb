@@ -65,5 +65,4 @@ class UserTest < ActiveSupport::TestCase
   #password validation section
 
 
-
 end
