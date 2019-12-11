@@ -65,4 +65,8 @@ class UserTest < ActiveSupport::TestCase
   #password validation section
 
 
+  test "authenticated? should return flase for a user with nil digest" do
+    assert_not @user.authenticated?('')
+  end
+
 end
