@@ -16,7 +16,7 @@ gem 'coffee-rails', '4.2.2'
 gem 'jquery-rails', '4.3.1'
 gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.7.0'
-gem 'nokogiri',     '1.10.5'
+gem 'nokogiri',     '1.11.4'
 gem 'bcrypt',      '3.1.12'
 
 group :development, :test do
